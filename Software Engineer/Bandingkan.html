@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandingkan</title>
+    <link rel="stylesheet" href="Bandingkan.css">
+    <link rel="icon" href="Asset/Header/Logo Di Search Bar.png" type="image/png">
+    <!-- <script src="home.js"></script> -->
+    <script src="searchBar.js"></script>
+    <script src="Bandingkan.js"></script>
+    <script src="https://kit.fontawesome.com/e419cdd531.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- ===================HEADER========================= -->
+    <section class ="header">
+        <div class="header-background">
+            
+        </div>
+        <div class="container-header">
+            <a href="home.html">
+                <img src="/Asset/Header/Logo + Name.png" alt="Logo+name" id="logonama">
+            </a>
+            <!-- <h1>ChoiceHive</h1> -->
+        </div>
+        <div class="container-search">
+            <div class="search-bar">
+                <div class="search-logo">
+                    <img src="/Asset/Header/Logo Di Search Bar.png" alt="logoC">
+                </div>
+                <div class="search-content">
+                    <input type="text" name="search" id="search" placeholder="Apa yang ingin dicari?">
+                </div>
+                <a class="search-symbol" id="search-link">
+                    <img src="/Asset/Header/Search Icon.png" alt="logoSearch">
+                </a>
+            </div>
+            <a class="container-coupon" href="kupon.html">
+                <img src="/Asset/Header/mdi_coupon.png" alt="CouponLogo">
+                <h4>Kupon</h4>
+            </a>
+        </div>
+    </section>
+    <section class="isi">
+        
+        <div class="heading">
+            <div class="page-link"><a href="home.html">Beranda </a> > <a href="ProductPage.html">CPU</a> > CPU Intel Core I7 Gen 2</div>
+            <br>
+            <h1 id="product-reco">Rekomendasi kami</h1>
+        </div>
+
+        <div class="reco-prod-container">
+            <div class="compare-prod-title">
+                <img src="Asset/Body/Intel_CPU.png" alt="cpu">
+                <h4>CPU Intel Core I7 Gen 2</h4>
+            </div>
+            <div class="separator-line"></div>
+            <div class="compare-prod-content">
+                <div class="compare-prod-desc">
+                    <img src="Asset/Body/Tokopedia_Kupon.png" alt="tokopedia">
+                    <div class="store-name-desc">
+                        <i class="fa-solid fa-store"></i>
+                        <h3>Ray Gaming Store</h3>
+                    </div>
+                    <div class="store-rating-desc">
+                        <i class="fa-solid fa-star"></i>
+                        <h4>5.0 (2rb)</h4>
+                    </div>
+                    <div class="store-loc-desc">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>Jakarta Barat</h4>
+                    </div>
+                </div>
+                <div class="compare-prod-price">
+                    <h2>Rp 7.500.000</h2>
+                    <a href="ProductDetail.html">Cek Produk</a>
+                </div>
+            </div>
+        </div>
+        <div class="section-title">
+            <h1>Harga Termurah</h1>
+        </div>
+        <div class="cheapest-prod-container">
+            <div class="compare-prod-title">
+                <img src="Asset/Body/Intel_CPU.png" alt="cpu">
+                <h4>CPU Intel Core I7 Gen 2</h4>
+            </div>
+            <div class="separator-line"></div>
+            <div class="compare-prod-content">
+                <div class="compare-prod-desc">
+                    <img src="Asset/Body/Lazada_Kupon.png" alt="tokopedia">
+                    <div class="store-name-desc">
+                        <i class="fa-solid fa-store"></i>
+                        <h3>Hydrog Computer Association</h3>
+                    </div>
+                    <div class="store-rating-desc">
+                        <i class="fa-solid fa-star"></i>
+                        <h4>4.0 (5)</h4>
+                    </div>
+                    <div class="store-loc-desc">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>Jakarta Barat</h4>
+                    </div>
+                </div>
+                <div class="compare-prod-price">
+                    <h2>Rp 5.000.000</h2>
+                    <a href="ProductDetail.html">Cek Produk</a>
+                </div>
+            </div>
+        </div>
+        <div class="section-title">
+            <h1>Urutkan harga berdasarkan</h1>
+        </div>
+        <div class="container-filter-btn">
+            <div class="filter-btn" id="filter-rating">
+                <h4>Rating</h4>
+            </div>
+            <div class="filter-btn" id="filter-tokopedia">
+                <h4>Tokopedia</h4>
+            </div>
+            <div class="filter-btn" id="filter-lazada">
+                <h4>Lazada</h4>
+            </div>
+        </div>
+        <!-- 3 kotak rating -->
+        <div class="filter-prod-container" id="rating1">
+            <div class="compare-prod-title">
+                <img src="Asset/Body/Intel_CPU.png" alt="cpu">
+                <h4>CPU Intel Core I7 Gen 2</h4>
+            </div>
+            <div class="separator-line"></div>
+            <div class="compare-prod-content">
+                <div class="compare-prod-desc">
+                    <img src="Asset/Body/Tokopedia_Kupon.png" alt="tokopedia">
+                    <div class="store-name-desc">
+                        <i class="fa-solid fa-store"></i>
+                        <h3>VincentXYZ Gaming Store</h3>
+                    </div>
+                    <div class="store-rating-desc">
+                        <i class="fa-solid fa-star"></i>
+                        <h4>5.0 (2rb)</h4>
+                    </div>
+                    <div class="store-loc-desc">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>Jakarta Utara</h4>
+                    </div>
+                </div>
+                <div class="compare-prod-price">
+                    <h2>Rp 5.250.000</h2>
+                    <a href="ProductDetail.html">Cek Produk</a>
+                </div>
+            </div>
+        </div>
+        <div class="filter-prod-container" id="rating2">
+            <div class="compare-prod-title">
+                <img src="Asset/Body/Intel_CPU.png" alt="cpu">
+                <h4>CPU Intel Core I7 Gen 2</h4>
+            </div>
+            <div class="separator-line"></div>
+            <div class="compare-prod-content">
+                <div class="compare-prod-desc">
+                    <img src="Asset/Body/Lazada_Kupon.png" alt="tokopedia">
+                    <div class="store-name-desc">
+                        <i class="fa-solid fa-store"></i>
+                        <h3>Ran Thru Gaming</h3>
+                    </div>
+                    <div class="store-rating-desc">
+                        <i class="fa-solid fa-star"></i>
+                        <h4>4.9 (2rb)</h4>
+                    </div>
+                    <div class="store-loc-desc">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>Pontianak</h4>
+                    </div>
+                </div>
+                <div class="compare-prod-price">
+                    <h2>Rp 6.500.000</h2>
+                    <a href="ProductDetail.html">Cek Produk</a>
+                </div>
+            </div>
+        </div>
+        <div class="filter-prod-container" id="rating3">
+            <div class="compare-prod-title">
+                <img src="Asset/Body/Intel_CPU.png" alt="cpu">
+                <h4>CPU Intel Core I7 Gen 2</h4>
+            </div>
+            <div class="separator-line"></div>
+            <div class="compare-prod-content">
+                <div class="compare-prod-desc">
+                    <img src="Asset/Body/Tokopedia_Kupon.png" alt="tokopedia">
+                    <div class="store-name-desc">
+                        <i class="fa-solid fa-store"></i>
+                        <h3>Ray Gaming Store</h3>
+                    </div>
+                    <div class="store-rating-desc">
+                        <i class="fa-solid fa-star"></i>
+                        <h4>5.0 (2rb)</h4>
+                    </div>
+                    <div class="store-loc-desc">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>Jakarta Barat</h4>
+                    </div>
+                </div>
+                <div class="compare-prod-price">
+                    <h2>Rp 7.500.000</h2>
+                    <a href="ProductDetail.html">Cek Produk</a>
+                </div>
+            </div>
+        </div>
+        <!-- 3 kotak tokopedia -->
+        <div class="filter-prod-container" id="tokped1" style="display: none;">
+            <div class="compare-prod-title">
+                <img src="Asset/Body/Intel_CPU.png" alt="cpu">
+                <h4>CPU Intel Core I7 Gen 2</h4>
+            </div>
+            <div class="separator-line"></div>
+            <div class="compare-prod-content">
+                <div class="compare-prod-desc">
+                    <img src="Asset/Body/Tokopedia_Kupon.png" alt="tokopedia">
+                    <div class="store-name-desc">
+                        <i class="fa-solid fa-store"></i>
+                        <h3>VincentXYZ Gaming Store</h3>
+                    </div>
+                    <div class="store-rating-desc">
+                        <i class="fa-solid fa-star"></i>
+                        <h4>4.6 (2rb)</h4>
+                    </div>
+                    <div class="store-loc-desc">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>Jakarta Utara</h4>
+                    </div>
+                </div>
+                <div class="compare-prod-price">
+                    <h2>Rp 5.100.000</h2>
+                    <a href="ProductDetail.html">Cek Produk</a>
+                </div>
+            </div>
+        </div>
+        <div class="filter-prod-container" id="tokped2" style="display: none;">
+            <div class="compare-prod-title">
+                <img src="Asset/Body/Intel_CPU.png" alt="cpu">
+                <h4>CPU Intel Core I7 Gen 2</h4>
+            </div>
+            <div class="separator-line"></div>
+            <div class="compare-prod-content">
+                <div class="compare-prod-desc">
+                    <img src="Asset/Body/Tokopedia_Kupon.png" alt="tokopedia">
+                    <div class="store-name-desc">
+                        <i class="fa-solid fa-store"></i>
+                        <h3>Badak Gaming</h3>
+                    </div>
+                    <div class="store-rating-desc">
+                        <i class="fa-solid fa-star"></i>
+                        <h4>4.5 (1rb)</h4>
+                    </div>
+                    <div class="store-loc-desc">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>Bandung</h4>
+                    </div>
+                </div>
+                <div class="compare-prod-price">
+                    <h2>Rp 6.000.000</h2>
+                    <a href="ProductDetail.html">Cek Produk</a>
+                </div>
+            </div>
+        </div>
+        <div class="filter-prod-container" id="tokped3" style="display: none;">
+            <div class="compare-prod-title">
+                <img src="Asset/Body/Intel_CPU.png" alt="cpu">
+                <h4>CPU Intel Core I7 Gen 2</h4>
+            </div>
+            <div class="separator-line"></div>
+            <div class="compare-prod-content">
+                <div class="compare-prod-desc">
+                    <img src="Asset/Body/Tokopedia_Kupon.png" alt="tokopedia">
+                    <div class="store-name-desc">
+                        <i class="fa-solid fa-store"></i>
+                        <h3>XxX_Gaming_XxX Store</h3>
+                    </div>
+                    <div class="store-rating-desc">
+                        <i class="fa-solid fa-star"></i>
+                        <h4>4.5 (500)</h4>
+                    </div>
+                    <div class="store-loc-desc">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>Bekasi</h4>
+                    </div>
+                </div>
+                <div class="compare-prod-price">
+                    <h2>Rp 6.950.000</h2>
+                    <a href="ProductDetail.html">Cek Produk</a>
+                </div>
+            </div>
+        </div>
+        <!-- 3 kotak lazada -->
+        <div class="filter-prod-container" id = "lazada1" style="display: none;">
+            <div class="compare-prod-title">
+                <img src="Asset/Body/Intel_CPU.png" alt="cpu">
+                <h4>CPU Intel Core I7 Gen 2</h4>
+            </div>
+            <div class="separator-line"></div>
+            <div class="compare-prod-content">
+                <div class="compare-prod-desc">
+                    <img src="Asset/Body/Lazada_Kupon.png" alt="tokopedia">
+                    <div class="store-name-desc">
+                        <i class="fa-solid fa-store"></i>
+                        <h3>Hydrog Computer Association</h3>
+                    </div>
+                    <div class="store-rating-desc">
+                        <i class="fa-solid fa-star"></i>
+                        <h4>4.0 (5)</h4>
+                    </div>
+                    <div class="store-loc-desc">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>Jakarta Barat</h4>
+                    </div>
+                </div>
+                <div class="compare-prod-price">
+                    <h2>Rp 5.000.000</h2>
+                    <a href="ProductDetail.html">Cek Produk</a>
+                </div>
+            </div>
+        </div>
+        <div class="filter-prod-container" id="lazada2" style="display: none;">
+            <div class="compare-prod-title">
+                <img src="Asset/Body/Intel_CPU.png" alt="cpu">
+                <h4>CPU Intel Core I7 Gen 2</h4>
+            </div>
+            <div class="separator-line"></div>
+            <div class="compare-prod-content">
+                <div class="compare-prod-desc">
+                    <img src="Asset/Body/Lazada_Kupon.png" alt="tokopedia">
+                    <div class="store-name-desc">
+                        <i class="fa-solid fa-store"></i>
+                        <h3>Semua Elektronik</h3>
+                    </div>
+                    <div class="store-rating-desc">
+                        <i class="fa-solid fa-star"></i>
+                        <h4>4.5 (1rb)</h4>
+                    </div>
+                    <div class="store-loc-desc">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>Pontianak</h4>
+                    </div>
+                </div>
+                <div class="compare-prod-price">
+                    <h2>Rp 5.500.000</h2>
+                    <a href="ProductDetail.html">Cek Produk</a>
+                </div>
+            </div>
+        </div>
+        <div class="filter-prod-container" id = "lazada3" style="display: none;">
+            <div class="compare-prod-title">
+                <img src="Asset/Body/Intel_CPU.png" alt="cpu">
+                <h4>CPU Intel Core I7 Gen 2</h4>
+            </div>
+            <div class="separator-line"></div>
+            <div class="compare-prod-content">
+                <div class="compare-prod-desc">
+                    <img src="Asset/Body/Lazada_Kupon.png" alt="tokopedia">
+                    <div class="store-name-desc">
+                        <i class="fa-solid fa-store"></i>
+                        <h3>Ran Thru Store</h3>
+                    </div>
+                    <div class="store-rating-desc">
+                        <i class="fa-solid fa-star"></i>
+                        <h4>4.9 (2rb)</h4>
+                    </div>
+                    <div class="store-loc-desc">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>Pontianak</h4>
+                    </div>
+                </div>
+                <div class="compare-prod-price">
+                    <h2>Rp 6.500.000</h2>
+                    <a href="ProductDetail.html">Cek Produk</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+<footer class ="footer">
+    <div class = "container">
+        <div class = "row">
+            <div class = "footer-col">
+                <h4>Tentang ChoiceHive</h4>
+                <ul>
+                    <li class="FT_LI_Company"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Tentang Kami </a></li>
+                    <li class="FT_LI_Company"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Kebijakan Privasi </a></li>
+                    <li class="FT_LI_Company"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Syarat & Ketentuan </a></li>
+                </ul>
+            </div>
+            
+
+            <div class="footer-col">
+                <h4>Social Media</h4>
+                <div class="social-links">
+                    <div class="Flex-container">
+                        <li class="FT_LI_SocMed"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                        <p>Instagram</p>
+                    </div>
+                    <div class="Flex-container">
+                        <li class="FT_LI_SocMed"><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                        <p>Facebook</p>
+                    </div>
+                    <div class="Flex-container">
+                        <li class="FT_LI_SocMed"><a href="https://twitter.com/explore"><i class="fa-brands fa-twitter"></i></a></li>
+                        <p>Twitter</p>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>
+                    Get Help
+                </h4>
+                <div class="Flex-container">
+                    <img src="/Asset/Footer/Telepon.png" alt="Gambar Telepon">
+                    <div class="flex-container2">
+                        <p>Customer Service</p>
+                        <em>+62-0817-1234-5678</em>
+                        <!-- <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Customer Service</a>
+                        <em>+62-0817-1234-5678</em> -->
+                    </div>
+                </div>
+                
+
+            </div>
+
+            <div class="footer-col">
+                <h4>Location</h4>
+                <div class="Flex-container">
+                    <img src="/Asset/Footer/Lokasi.png" alt="Logo Lokasi">
+                    <div class="flex-container2">
+                        <p>Lokasi</p>
+                        <em>Jl. Kebon Jeruk Raya No. 27 Kebon Jeruk Jakarta Barat 11530</em>
+                        <!-- <a href="">Lokasi</a>
+                        <em>Jl. Kebon Jeruk Raya No. 27 Kebon Jeruk Jakarta Barat 11530</em> -->
+                    </div>
+                </div>
+            </div>
+            
+
+                
+            </div>
+        </div>
+</footer>
+</html>
